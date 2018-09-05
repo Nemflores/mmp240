@@ -1,0 +1,17 @@
+body{
+	background: url(background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+ul{
+	color: white;
+	font-size: 2.5em;
+}
+
+h1{
+	color:#d0d0e1;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Norican', cursive;
+}
+ 
