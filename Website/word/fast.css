@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Kaushan+Script');
+
+body{
+	background-color: #0000bf;
+}
+
+h1{
+	font-family:  'Faster One', cursive;
+	color: #d7e958;
+	font-size: 20em;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	font-size: 4em;
+}
