@@ -1,0 +1,41 @@
+body{
+	width: 75%;
+	margin:0 auto;
+	text-align: center;
+    background-color: azure;
+    font-size: 2em;
+    border: 9px solid;
+    border-color: black;
+}
+
+
+ul{
+	list-style: none;
+}
+
+h1{
+    background-color: orangered;
+    border: 2px solid;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    background-color: bisque;
+}
+
+aside{
+    border: 2px solid yellow;
+    width: 30%;
+    float:left;
+}
+
+article{ 
+    border: 2px solid red;
+    width: 59%;
+    float: right;
+}
