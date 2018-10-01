@@ -15,20 +15,27 @@ h1{
 
 }
 
-a{
+nav a{
 	text-decoration: none;
 	color: darkred;
+    display: inline-block;
+    padding: 10px;
+    background-color: lightskyblue;
  }
 
-a:hover{
+ a:hover{
+    display: inline-block;
+    background-color:deepskyblue;
     color: chocolate;
 }
 
- ul{
+ nav ul{
  	list-style: none;
  	text-align: center;
- 	font-size: 6em;
+ 	font-size: 3.5em;
  	font-family: 'Libre Baskerville', serif;
- 	
+ 	}
 
- }
+nav li {
+    display: inline;
+}
