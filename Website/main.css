@@ -20,6 +20,10 @@ a{
 	color: darkred;
  }
 
+a:hover{
+    color: chocolate;
+}
+
  ul{
  	list-style: none;
  	text-align: center;

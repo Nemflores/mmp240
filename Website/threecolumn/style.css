@@ -1,0 +1,49 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+	height: 400px;
+    margin-bottom: 10px;
+    
+}
+header{
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: black;
+    
+}
+
+.left{
+    background-color: tomato;
+    width: 33%;
+    float: left;
+}
+
+.mid{
+     background-color: tomato;
+    width: 33%;
+    float: ;
+}
+
+.right{ 
+    background-color: black;
+    width: 33%;
+    float: right;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+    clear: both;
+    margin-top:px;
+}
+
+aside{
+    height:400px;
+    background-color: tomato;
+}
+
+article{
+    height: 400px;
+    background-color: black;
+}
