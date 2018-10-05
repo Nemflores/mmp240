@@ -1,0 +1,25 @@
+body{
+    background-color: mediumpurple;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    
+   
+}
+
+nav li {
+    display: inline;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: cyan;
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 50px ;
+    padding-right: 50px;
+}
+
