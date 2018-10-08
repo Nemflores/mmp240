@@ -23,3 +23,9 @@ nav a{
     padding-right: 50px;
 }
 
+nav a:hover{
+    color: saddlebrown;
+    font-size: 40px;
+    transition: color 1.8s;
+}
+
