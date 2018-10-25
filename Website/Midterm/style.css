@@ -22,6 +22,10 @@ body{
 
 h1{
     text-align: center;
+    background-color: darkorange;
+    margin: 5 350;
+    padding: 15;
+
 }
 
 column{
@@ -35,5 +39,11 @@ aside{
     float:right;
     width: 40%;
     
+}
+
+.box{
+    background-color: white;
+    padding: 50;
+    margin-bottom: 25
 }
 
