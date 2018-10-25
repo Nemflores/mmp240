@@ -16,6 +16,10 @@ li{
     font-size: 25;
 }
 
+body{
+    background-image:url(grass.jpg);
+}
+
 h1{
     text-align: center;
 }
