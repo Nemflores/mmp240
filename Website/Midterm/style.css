@@ -29,6 +29,7 @@ h1{
 }
 
 column{
+
     background-color: white;
     float: left;
     width: 50%;
@@ -46,6 +47,25 @@ aside{
 .box{
     background-color: white;
     padding: 50;
-    margin-bottom: 25
+    margin-bottom: 25;
+    
 }
+
+h3 {
+    font-size: 40;
+    margin: 0 0 0 -25;
+}
+
+h2{
+    margin-right: 55;
+}
+p{
+    font-size: 20;
+
+}
+
+footer{
+    text-align: center;
+}
+
 
