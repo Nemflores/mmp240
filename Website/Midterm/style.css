@@ -1,19 +1,20 @@
 header{
     padding:5;
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 ul{
     list-style-type: none;
-    padding: inherit;
-    margin: none;
+    padding:inherit;
+    margin: 1 1  ;
     }
 
 li{
     display: inline-block;
-    padding: 10;
-    margin-left: 20;
-    font-size: 25;
+    padding: 20;
+    margin-left: 230;
+    font-size: 30;
+    background-color: gold;
 }
 
 body{
@@ -23,18 +24,19 @@ body{
 h1{
     text-align: center;
     background-color: darkorange;
-    margin: 5 350;
-    padding: 15;
+    margin: 10 300;
+    padding: 10;
 
 }
 
 column{
 
-    background-color: white;
+    background-color: green;
     float: left;
     width: 50%;
     margin-left:0;
     padding-left: 55;
+    color:white;
     
 }
 
@@ -42,13 +44,14 @@ aside{
     float:right;
     width: 40%;
     
+    
 }
 
 .box{
-    background-color: white;
+    background-color: green;
     padding: 50;
     margin-bottom: 25;
-    
+    color: white;
 }
 
 h3 {
@@ -68,4 +71,6 @@ footer{
     text-align: center;
 }
 
-
+.info{
+    text-align: center;
+}
