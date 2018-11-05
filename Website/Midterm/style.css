@@ -6,7 +6,8 @@ header{
 ul{
     list-style-type: none;
     padding:inherit;
-    margin: 1 1  ;
+
+    text-align: center;
     }
 
 li{
