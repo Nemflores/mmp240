@@ -29,6 +29,7 @@ li a:hover{
     color: black;
     transition: 1s;
     text-decoration: underline;
+    font-size: 40px;
 }
 
 body{
@@ -43,7 +44,13 @@ body{
     font-family:  'Noto Sans', sans-serif;
 }
 
+.choice:hover{
+    color: #504A48;
+    transition: 1.5s;
+}
+
 .items {
+    
     display: none;
     background-color: #f9f9f9;
     min-width: 160px;
