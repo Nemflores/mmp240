@@ -8,6 +8,8 @@ ul{
     width: 100%;
 }
 
+
+
 li{
     float: left;
 }
@@ -21,6 +23,12 @@ li a{
     text-decoration: none;
     font-family:'Allerta Stencil', sans-serif;
     
+}
+
+li a:hover{
+    color: black;
+    transition: 1s;
+    text-decoration: underline;
 }
 
 body{
