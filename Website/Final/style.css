@@ -84,6 +84,31 @@ h1{
     
 }
 
+
+
+.merch h1{
+    font-size: 45;
+    text-align: center;
+    color: plum;
+    margin-left: 200;
+    margin-right: 200;
+    margin-top: 5; 
+    
+    }
+
+.sunset{
+    text-align: center;
+}
+
+
+
 column{
     text-align: center;
+    width: 40%;
+}
+
+p{
+    color: aliceblue;
+    font-family: 'Charm', cursive;
+    font-size: 40;
 }
