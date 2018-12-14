@@ -111,4 +111,21 @@ p{
     color: aliceblue;
     font-family: 'Charm', cursive;
     font-size: 40;
+    background-color: gray;
+    margin: 0 180
+}
+
+h3{
+    color: white;
+    font-size: 40;
+    margin-top: 2;
+}
+
+.album{
+    text-align: center;
+}
+
+.detail{
+    text-align: center;
+    margin-top: 100;
 }
