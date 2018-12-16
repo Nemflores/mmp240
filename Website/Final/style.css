@@ -1,4 +1,9 @@
-
+.snipcart-checkout h5{
+    font-size: 40;
+    color: aqua;
+    margin-bottom: 0;
+    text-align: right;
+}
 ul{
     list-style-type: none;
     margin: 0;
