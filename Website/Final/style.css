@@ -138,6 +138,8 @@ a{
 
 .back h1{
     color: orange;
+    margin: 0 500;
+    
 }
 
 @media (max-width:1000px) {
@@ -165,4 +167,10 @@ a{
         font-size: 55;
         margin: 0 ;
     }
+    .back h1{
+    color: orange;
+    margin: 0 ;
+    
+}
+    
 }
