@@ -191,9 +191,23 @@ a{
 body{
     margin: auto;
 }
-    
-    @media (max-width:1790px){
+}
+    @media (min-width:1790px){
+        .merch h1{
+            font-size: 100px;
+        }
+        
+        .sunset img{
+            width:100%;
+        }
+        
+        li a{
+            font-size:80px;
+        }
+        
+        .events img{
+            width: 800px;
+        }
         
     }
     
-}
