@@ -147,6 +147,12 @@ a{
     
 }
 
+.button{
+    text-align: center;
+}
+
+
+
 @media (max-width:1000px) {
    
     li{
@@ -176,6 +182,10 @@ a{
     color: orange;
     margin: 0 ;
     
+}
+
+.sunset{
+    width: 80;
 }
     
 }

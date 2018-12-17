@@ -11,7 +11,11 @@
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-       <a href="#" class="snipcart-checkout"><h5>Checkout</h5></a>
+        <div class="snipcart-summary">
+    Number of items: <span class="snipcart-total-items"></span>
+    Total price: <span class="snipcart-total-price"></span>
+</div>
+       
         <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -28,16 +32,21 @@
         <p>Black 100% cotton T-Shirt</p>
         <p>Sizes:Small|Medium|Large|X-Large</p>
         <p>This minimalist design drawn by Frank Filt himself is a subtle yet evident sign of appreciation for the artist.</p>
+        
+        <div class="button">
          <button
     class="snipcart-add-item"
     data-item-id="2"
     data-item-name="Black Shirt"
     data-item-price="25.00"
     data-item-weight="20"
+     data-item-custom2-name="Size"
+    data-item-custom2-options="Small|Medium|Large|X-Large"
     data-item-url="http://myapp.com/products/shirt2"
     >
         Buy Now
 </button>
+</div>
         
     
     </body>

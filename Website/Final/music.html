@@ -4,9 +4,18 @@
     <link href="style.css" rel=stylesheet>
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YzkyZjQ1YzktMDlhNy00NTcwLTkyZjMtOWI5YjJmNjUwZWNlNjM2NjAzNDY3MjE2MDQ5MjAy" id="snipcart"></script>
+
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <a href="#" class="snipcart-checkout"><h5>Checkout</h5></a>
+        <div class="snipcart-summary">
+    Number of items: <span class="snipcart-total-items"></span>
+    Total price: <span class="snipcart-total-price"></span>
+</div>
+        
         <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -20,10 +29,36 @@
         <div class="album"><img src=pics/album1.jpg width=500 height="400">
         <h3>"Where Have I Gone" by Frank Filt, 2016</h3>
         </div>
+
+        <div class="button"> 
+            <button
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="Black Hat"
+    data-item-price="20.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/hat2"
+    >
+        Buy Now
+</button>
+</div>
         
         <div class="album"><h1></h1><img src=pics/album2.jpg width=500 height="400">
              <h3>"It's Pink!" by Frank Filt, 2018</h3>
         </div>
+
+      <div class="button">
+        <button
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="Black Hat"
+    data-item-price="20.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/hat2"
+    >
+        Buy Now
+</button>
+</div>
         
         
        

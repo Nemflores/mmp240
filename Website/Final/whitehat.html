@@ -11,7 +11,11 @@
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <a href="#" class="snipcart-checkout"><h5>Checkout</h5></a>
+        <div class="snipcart-summary">
+    Number of items: <span class="snipcart-total-items"></span>
+    Total price: <span class="snipcart-total-price"></span>
+</div>
+        
         <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -27,9 +31,11 @@
         <h3>White Astronaut Hat </h3>
         <p>White Astronaut Hat</p>
         <p>This is a one size fits most dad hat.</p>
+        
+        <div class="button">
          <button
     class="snipcart-add-item"
-    data-item-id="2"
+    data-item-id="4"
     data-item-name="White Hat"
     data-item-price="20.00"
     data-item-weight="20"
@@ -37,6 +43,7 @@
     >
         Buy Now
 </button>
+</div>
         
         
     
