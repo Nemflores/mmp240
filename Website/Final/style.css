@@ -184,8 +184,8 @@ a{
     
 }
 
-.sunset{
-    width: 80;
+.sunset img{
+     max-width: 90%;
 }
 
 body{
