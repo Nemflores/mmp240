@@ -212,6 +212,17 @@ body{
         p{
             font-size: 80
         }
+        .detail img{
+            width: 80%;
+        }
+        .event img{
+            width:850px;
+            height: 700px;
+        }
         
+        .album img{
+            width:850px;
+            height:700px;
+        }
     }
     
